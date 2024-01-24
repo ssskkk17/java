@@ -1,0 +1,23 @@
+package jp.co.diworks.action;
+
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("Hello world");
+		System.out.println(tashizan);
+		System.out.println(hikizan);
+		System.out.println(kakezan);
+		System.out.println(warizan);
+	}
+	public static int tashizan (int num1, int num2) {
+		return num1 + num2;
+	}
+	public static int hikizan (int num1, int num2) {
+		return num1 - num2;
+	}
+	public static int kakezan (int num1, int num2) {
+		return num1 * num2;
+	}
+	public static int warizan (int num1, int num2) {
+		return num1 / num2;
+	}
+}
